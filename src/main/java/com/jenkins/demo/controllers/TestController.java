@@ -55,9 +55,16 @@ public class TestController {
 		emp3.setEmpId("3");
 		emp3.setSalary(1500);
 		
+		Employee emp4 = new Employee();
+		emp4.setName("emp4");
+		emp4.setDesignation("support");
+		emp4.setEmpId("4");
+		emp4.setSalary(1200);
+		
 		tempEmployees.add(emp1);
 		tempEmployees.add(emp2);
 		tempEmployees.add(emp3);
+		tempEmployees.add(emp4);
 		
 		return tempEmployees;
 	}
